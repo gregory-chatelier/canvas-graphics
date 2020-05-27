@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "victor@1.1.0",
+      "destination": "wwwroot/vendors/victor/"
+    },
+    {
+      "library": "node-uuid@1.4.8",
+      "destination": "wwwroot/vendors/node-uuid/"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "outputFileName": "wwwroot/js/renderers/renderers.js",
+    "inputFiles": [
+      "wwwroot/js/renderers/bouncing-ball.js",
+      "wwwroot/js/renderers/grid.js",
+      "wwwroot/js/renderers/smiley.js"
+    ]
+  }
+]

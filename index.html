@@ -1,0 +1,41 @@
+﻿<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+
+    <title>Playing with Canvas</title>
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="wwwroot/css/styles.css">
+
+</head>
+
+<body>
+    
+    <h1>Programmes</h1>
+    <select id="program-choice">
+        <option value="FISH_TANK" selected="selected">Banc de poissons</option>
+        <option value="BOUNCING_BALL">Balle rebondissante</option>
+    </select>
+
+    <div class="canvas-container">
+        <div id="canvas-layers" class="layers"></div>
+    </div>
+
+    <script src="wwwroot/vendors/node-uuid/uuid.min.js"></script>
+    <script src="wwwroot/vendors/victor/victor.min.js"></script>
+    <script src="wwwroot/js/vector.js"></script>
+    <script src="wwwroot/js/coordinate-system.js"></script>
+    <script src="wwwroot/js/box.js"></script>
+    <script src="wwwroot/js/renderer.js"></script>
+    <script src="wwwroot/js/layer.js"></script>
+    <script src="wwwroot/js/canvas.js"></script>
+    <script src="wwwroot/js/multi-agents/multi-agents.js"></script>
+    <script src="wwwroot/js/renderers/grid.js"></script>
+    <script src="wwwroot/js/renderers/smiley.js"></script>
+    <script src="wwwroot/js/renderers/bouncing-ball.js"></script>
+    <script src="wwwroot/js/renderers/fish-tank.js"></script>
+    <script src="wwwroot/js/app.js"></script>
+</body>
+</html>
