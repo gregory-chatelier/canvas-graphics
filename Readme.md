@@ -51,14 +51,14 @@ L'application est une implémentation TypeScript assez fidèle du code C#. *(Pou
 
 
 
-![image-20200527125352293](\resources\images\image-20200527125352293.png)
+![image-20200527125352293](https://github.com/gregory-chatelier/canvas-graphics/blob/master/resources/images/image-20200527125352293.png)
 
 
 Au début du programme, 150 agents - les poissons - sont positionnés aléatoirement dans un océan virtuel. Ils se déplacent à vitesse constante chacun dans une direction elle aussi aléatoire.
 
 
 
-![image-20200527125211393](\resources\images\image-20200527125211393.png)
+![image-20200527125211393](https://github.com/gregory-chatelier/canvas-graphics/blob/master/resources/images/image-20200527125211393.png)
 
 
 
