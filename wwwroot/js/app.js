@@ -6,9 +6,9 @@ function main() {
     // They are superposed as layers on which we can draw
     var canvas = new Canvas("canvas-layers");
     // Multi agents exemple by default
-    var layer = canvas.addLayer("Fish tank", Rendering.Animation);
-    layer.addRenderer(new FishTank());
-    canvas.render(10, 10000);
+    var layer = canvas.addLayer("Play Ground", Rendering.Animation);
+    layer.addRenderer(new PlayGround());
+    canvas.render(7, 10000);
     // Other exemples on demand
     var choice = document.getElementById('program-choice');
     choice.addEventListener('change', function () {

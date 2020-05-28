@@ -8,9 +8,9 @@ function main(): void {
     let canvas: Canvas = new Canvas("canvas-layers");
 
     // Multi agents exemple by default
-    let layer: Layer = canvas.addLayer("Fish tank", Rendering.Animation);
-    layer.addRenderer(new FishTank());
-    canvas.render(10, 10000);
+    let layer: Layer = canvas.addLayer("Play Ground", Rendering.Animation);
+    layer.addRenderer(new PlayGround());
+    canvas.render(7, 10000);
 
     // Other exemples on demand
     let choice: HTMLSelectElement = <HTMLSelectElement>document.getElementById('program-choice');
